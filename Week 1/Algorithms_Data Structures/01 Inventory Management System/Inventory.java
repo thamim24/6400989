@@ -103,7 +103,7 @@ public class Inventory
         // Updating a product
         System.out.print("Enter Product ID to update: ");
         productId = sc.nextInt();
-        inventory.updateProduct(productId, "Gaming Laptop", 5, 95000.00);
+        inventory.updateProduct(productId, "Bluetooth Speakers", 6, 9500.00);
 
         // Displaying products after update
         System.out.println("Products in inventory after update:");
