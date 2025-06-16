@@ -3,4 +3,4 @@
 ### Email : thamimul2004@gmail.com
 ### GitHub Repository : https://github.com/thamim24/6400989
 
-### Week 1 : Algorithms_Data Structures
+### Week 1 : Design Patterns and Principles
