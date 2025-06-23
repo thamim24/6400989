@@ -1,4 +1,3 @@
-// PdfDocument.java
 public class PdfDocument implements Document {
     @Override
     public void open() {

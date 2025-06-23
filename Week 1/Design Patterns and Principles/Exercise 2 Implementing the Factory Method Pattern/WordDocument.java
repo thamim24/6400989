@@ -1,4 +1,3 @@
-// WordDocument.java
 public class WordDocument implements Document {
     @Override
     public void open() {
