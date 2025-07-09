@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Country Selector</title>
+    <script>
+        function showCountryName() {
+            const select = document.getElementById("country-select");
+            const selectedCode = select.value;
+
+            const countryMap = {
+                "US": "United States",
+                "DE": "Germany",
+                "IN": "India",
+                "JP": "Japan",
+                "FR": "France",
+                "BR": "Brazil",
+                "CA": "Canada"
+            };
+
+            const nameDisplay = document.getElementById("country-name");
+            if (selectedCode) {
+                nameDisplay.textContent = "Selected Country: " + countryMap[selectedCode];
+            } else {
+                nameDisplay.textContent = "";
+            }
+        }
+    </script>
+</head>
+<body>
+    <h2>Select Country</h2>
+    <select id="country-select" onchange="showCountryName()">
+        <option value="">-- Select Code --</option>
+        <option value="US">US</option>
+        <option value="DE">DE</option>
+        <option value="IN">IN</option>
+        <option value="JP">JP</option>
+        <option value="FR">FR</option>
+        <option value="BR">BR</option>
+        <option value="CA">CA</option>
+    </select>
+
+    <p id="country-name" style="font-weight: bold; color: green; margin-top: 10px;"></p>
+</body>
+</html>
