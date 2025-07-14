@@ -1,0 +1,41 @@
+.box {
+  width: 300px;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  vertical-align: top;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.box dt {
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.box dd {
+  margin: 0 0 10px 20px;
+  color: #666;
+}
+
+.cohortTitle {
+  margin: 0 0 15px 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.detailsList {
+  margin: 0;
+}
+
+.detailsList dt:first-child {
+  margin-top: 0;
+}
+
+.detailsList dd:last-child {
+  margin-bottom: 0;
+}
