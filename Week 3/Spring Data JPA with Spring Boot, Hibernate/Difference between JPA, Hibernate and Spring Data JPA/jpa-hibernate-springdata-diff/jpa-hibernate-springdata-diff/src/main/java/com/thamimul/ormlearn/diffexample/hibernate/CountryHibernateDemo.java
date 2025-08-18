@@ -24,7 +24,7 @@ public class CountryHibernateDemo {
         configuration.setProperty("hibernate.connection.username", "sa");
         configuration.setProperty("hibernate.connection.password", "");
         configuration.setProperty("hibernate.dialect", "org.hibernate.dialect.H2Dialect");
-        configuration.setProperty("hibernate.hbm2ddl.auto", "create");
+        configuration.setProperty("hibernate.hbm2ddl.auto", "update");
         configuration.setProperty("hibernate.show_sql", "true");
 
         // ✅ Tell Hibernate which entity to use

@@ -16,7 +16,7 @@ public class CountrySpringDataDemo implements CommandLineRunner {
     @Override
     public void run(String... args) {
         System.out.println("=== Spring Data JPA Example ===");
-        Country country = repo.findById("IN").orElse(null);
+        Country country = repo.findById("USA").orElse(null);
         System.out.println("Spring Data Found: " + country);
     }
 }
